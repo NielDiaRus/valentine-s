@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will You Be My Valentine?</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .container img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .container h2 {
+        margin: 20px 0;
+        font-size: 24px;
+        color: #ff69b4;
+    }
+
+    .container h4 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #0a0202;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button-container button {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #69adff;
+        color: white;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-container button:hover {
+        background-color: #4190d6;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="valentines-love.gif" alt="Valentine's Day Gif" width="150">
+        <h2>Hai Moci, selamat hari valentine💕</h2>
+        <h4>Maaf ya ci, akunya belum bisa ngasi coklat, habisnya lagi gadak duitt hehehe🥲<br>Tapi tenang, disini ada hadiah untuk kamu. Pokonya mantap dah hadiahnya yakin pasti nyesel😊.<br>Kamu tinggal klik semua link dibawah ini ya:</h4>
+    </div>
+    <div class="button-container">
+        <button onclick="goToPage('halaman1.html')">Alphard</button>
+        <button onclick="goToPage('halaman2.html')">Barenbliss</button>
+        <button onclick="goToPage('halaman3.html')">100 Juta</button>
+        <button onclick="goToPage('halaman4.html')">ANJING</button>
+        <button onclick="goToPage('halaman5.html')">Motor Butut</button>
+    </div>
+    
+    <script>
+        function goToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

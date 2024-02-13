@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will You Be My Valentine?</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .valentine img {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .valentine h2 {
+        font-size: 24px;
+        color: #ff66c4;
+        margin-top: 20px;
+    }
+
+    .button-container {
+        margin-top: 30px;
+    }
+
+    .button-container a, .button-container button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: 2px solid transparent;
+        margin: 0 10px;
+    }
+
+    .button-container a {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .button-container button {
+        background-color: #f44336;
+        color: white;
+    }
+
+    .button-container a:hover, .button-container button:hover {
+        background-color: transparent;
+        border-color: #45a049;
+    }
+
+    .button-container a:hover {
+        color: #45a049;
+    }
+
+    .button-container button:hover {
+        color: #f44336;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="valentine">
+            <img src="happy-valentines.gif" alt="Valentine's Day Gif">
+            <h2>Will you be my Valentine?</h2>
+        </div>
+        <div class="button-container">
+            <a href="yes.html">Yes</a>
+            <button onclick="respond('no')">No</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
